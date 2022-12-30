@@ -75,5 +75,6 @@ while True:
                         stop_price=barset[ticker][-1]*1.03,
                         limit_price=barset[ticker][-1]*1.03
                     )
-             except Exception as e:
-                 print("Error placing sell order:", e)
+                )
+            except Exception as e:
+                print("Error placing sell order:", e)
