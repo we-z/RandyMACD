@@ -10,13 +10,13 @@ api = tradeapi.REST(
 )
 
 # Set the symbol and time frame
-symbol = 'AAPL'
-timeframe = '1Min'
+symbol = 'SOXL'
+timeframe = '5Min'
 
 # Set the MACD parameters
-fast_length = 3
-slow_length = 15
-signal_smooth = 2
+fast_length = 4
+slow_length = 5
+signal_smooth = 3
 
 while True:
     # Get the current bar data
