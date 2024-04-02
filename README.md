@@ -21,8 +21,9 @@ Paste the Secret at the end of this command and run it in the terminal
 ```
 export ALPACA_SECRET=
 ```
+3) Use this documentation to install talib: [TA-Lib Python](https://blog.quantinsti.com/install-ta-lib-python/)
 
-3) Run the program by copy/pasting this line and pressing enter
+4) Run the program by copy/pasting this line and pressing enter
 ```
 python3 MinuteBar.py
 ```
